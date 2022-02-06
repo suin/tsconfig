@@ -18,3 +18,11 @@ Add to your `tsconfig.json`:
   "extends": "@suin/tsconfig/tsconfig.json"
 }
 ```
+
+## Tips
+
+Check if your tsconfig.json is configured correctly:
+
+```shell
+npx tsc --showConfig
+```
